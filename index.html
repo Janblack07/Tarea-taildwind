@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica con taildwind</title>
+</head>
+<body>
+    <nav class="bg-gray-800">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Abrir el menu</span>
+              
+                <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                
+                <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start" >
+              <div class="flex flex-shrink-0 items-center">
+                <img style="width: 100%; height:10vh; margin-bottom: 6px;" src="Imagenes/logo-tecno.png "  alt="Your Company">
+              </div>
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-center font-medium" aria-current="page" style="margin-top: 14px;">Inicio</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-center font-medium" style="margin-top: 14px;">Equipo</a>
+      
+                  <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-center font-medium" style="margin-top: 14px;">Proyectos</a>
+      
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              
+              <div class="relative ml-3">
+                <div>
+                  <button type="button" class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                    <a href="Loggin.html" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" style="margin-top: -8px;">Inciar Seccion</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="relative overflow-hidden bg-white">
+        <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+          <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+            <div class="sm:max-w-lg">
+              <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Somos <span style="color:#4f46e5;">Tecno-Fox</span> </h1>
+              <p class="mt-4 text-xl text-gray-500">Somos distribuidores <span style="color:#4f46e5;"> Tecno-Oficiales </span>este año, celulares <span style="color:#4f46e5;">Xiaomi</span> ,<span style="color:#4f46e5;">Iphone</span>  ,<span style="color:#4f46e5;">Samsung</span>  a precios imbatibles llevatelo ahora. No te quedes sin el tuyo! </p>
+            </div>
+            <div>
+              <div class="mt-10">
+                <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+                  <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                    <div class="flex items-center space-x-2 lg:space-x-4">
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div class=" object-cover h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                          <img src="Imagenes/xiaomi-redmi-9-a.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class=" object-cover h-64 w-44 overflow-hidden rounded-lg">
+                          <img src="Imagenes/INFINIX-ZERO-X-NEO-2-800x1025.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                      </div>
+                      <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      
+                        <div class="object-cover h-64 w-44 overflow-hidden rounded-lg">
+                          <img src="Imagenes/IPHONE-12-800x1025.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class="object-cover h-64 w-44 overflow-hidden rounded-lg">
+                          <img src="Imagenes/TECNO-CAMOM-18P-800x1025.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                      </div>
+                      <div class="object-cover grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-6">
+                        <div class="h-64 w-44 overflow-hidden rounded-lg">
+                          <img src="Imagenes/realme-c11.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                        <div class="object-cover h-64 w-44 overflow-hidden rounded-lg">
+                          <img src="Imagenes/iphone-se-negro-800x1025.jpg" alt="" class="h-full w-full object-cover object-center">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <section class="md:h-full flex items-center text-gray-600">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-6xl text-gray-900 font-semibold">Celulares <span style="color:#4f46e5;">Disponibles</span></h2>
+            </div>
+            <div class="flex flex-wrap -m-4">
+              <div class="p-4 sm:w-1/2 lg:w-1/3">
+                <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="h-64 w-44 object-cover object-center"
+                        src="Imagenes/INFINIX-ZERO-X-NEO-2-800x1025.jpg" alt="blog">
+                    <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+                        <h2 class="text-base font-medium text-indigo-300 mb-1">$258.00</h2>
+                        <h1 class="text-2xl font-semibold mb-3">Infinix – Xero X Neo</h1>
+                        <p class="leading-relaxed mb-3">Su tamaño es 168.4 x 76.5 x 8.8 mm y su peso es 212 pulgadas. Tiene una pantalla IPS LCD de 6.78″.
+                           La resolución es de 1080 x 2460 y una densidad de los píxeles de 396 ppi . </p>
+                        <div class="flex items-center flex-wrap ">
+                            <a class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <span
+                                class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>1.2K
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>6
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="h-64 w-44 object-cover object-center"
+                            src="Imagenes/IPHONE-12-800x1025.jpg" alt="blog">
+                        <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+                            <h2 class="text-base font-medium text-indigo-300 mb-1">$860.00</h2>
+                            <h1 class="text-2xl font-semibold mb-3">Apple – iPhone 12</h1>
+                            <p class="leading-relaxed mb-3">Se trata del modelo intermedio en esta nueva generación iPhone, situándose un paso por encima del esperado iPhone 12 mini,
+                               pero por debajo de los modelos 12 Pro y 12 Pro Max. </p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                                <span
+                                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>1.2K
+                                </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>6
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="h-64 w-44 object-cover object-center"
+                            src="Imagenes/TECNO-CAMOM-18P-800x1025.jpg" alt="blog">
+                        <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+                            <h2 class="text-base font-medium text-indigo-300 mb-1">$220.00</h2>
+                            <h1 class="text-2xl font-semibold mb-3">Tecno – Camon 18 P</h1>
+                            <p class="leading-relaxed mb-3">Su tamaño es 168.9 x 76.7 x 8.8 mm y su peso es 0 pulgadas. Tiene una pantalla IPS LCD de 6.8″. 
+                              La resolución es de 1080 x 2460 y una densidad de los píxeles de 0 ppi .</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 mr-1" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                                <span
+                                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>1.2K
+                                </span>
+                                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>6
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <div class="w-full bg-gray-900 text-white">
+      <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
+        <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
+          <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="57" viewBox="0 0 160 57">
+              <defs>
+
+                  <img src="Imagenes/logo-tecno.png" alt="" style="margin-top: -30%;">
+               
+              </defs>
+              <rect id="ETI-Logo" width="160" height="57" fill="url(#pattern)" />
+            </svg>
+            <p class="opacity-60" style="margin-top:-10% ;">Tecno-Fox Distribuida de celulares a todo precio</p>
+          </div>
+          <div class="w-full sm:w-1/5 flex flex-col space-y-4">
+            <a class="opacity-60">About Us</a>
+            <a class="opacity-60">Responsable</a>
+            <a class="opacity-60">Servicios</a>
+            <a class="opacity-60">Contactos</a>
+          </div>
+          <div class="w-full sm:w-1/5 flex flex-col space-y-4">
+            <a class="opacity-60">ESPAM-MFL</a>
+            <a class="opacity-60">Testimonio</a>
+            <a class="opacity-60">Politica Privada </a>
+            <a class="opacity-60">Servicio de tema</a>
+          </div>
+          <div class="w-full sm:w-1/5 pt-6 flex items-end mb-1">
+            <div class="flex flex-row space-x-4">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-google"></i>
+            </div>
+          </div>
+        </div>
+        <div class="opacity-60 pt-2">
+          <br>
+          <p style="text-align:center;">© 2022 EMPRESA PRIVADA EXCLUSIVA.</p>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</body> 
+</html>
